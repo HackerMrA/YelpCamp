@@ -63,16 +63,6 @@ app.use(campgroundRoutes);
 
 
 
-
-
-
-
-
-let port=3000 | process.env.PORT;
-
-
-
-
-app.listen(port,process.env.IP,()=>{
+app.listen(process.env.PORT,process.env.IP,()=>{
 	console.log('Server is running');
 })
